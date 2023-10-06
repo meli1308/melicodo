@@ -1,0 +1,51 @@
+header{
+    background-color:rgb(6, 59, 59);
+    
+    
+};
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+}
+.btn-form{
+    background-color: rgb(124, 176, 22);
+}
+
+.card-img-top {
+    border: none;
+}
+
+#text-d1d {
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondo-img {
+    background-image: url(img/ba1.jpg);
+    background-color: rgba(0, 0, 0, 0.7);/*esto es para el fondo negro*/
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    padding: 90px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.footer-fondo {
+    background-color:rgb(6, 59, 59);
+}
+#confbsas .d-flex.justify-content-end button {
+    margin-right: 10px;
+
+}
+.copyright{
+    text-align: center;
+    text-decoration: palevioletred;
+    text-transform: capitalize;
+
+};
