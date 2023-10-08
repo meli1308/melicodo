@@ -3,6 +3,11 @@ header{
     
     
 };
+.max-width-500 {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
 
 body {
     font-family: 'Architects Daughter', cursive;
