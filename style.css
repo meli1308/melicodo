@@ -35,6 +35,7 @@ body {
     letter-spacing: 2px;
     text-decoration: none;
 }
+h1
 
 .footer-fondo {
     background-color:rgb(6, 59, 59);
@@ -49,3 +50,87 @@ body {
     text-transform: capitalize;
 
 };
+@media (max-width: 768px) {
+
+    .h5,
+    h5 {
+        font-size: 1rem;
+    }
+
+    .row-cols-4>* {
+        width: 100%;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .justify-content-center {
+        padding-top: .25rem !important
+    }
+
+    .fondo-img {
+        height: 55vh;
+    }
+
+    #concejos {
+        width: auto;
+    }
+    #concejos.img{
+        align-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .h1,
+    h1 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* Centrar horizontalmente */
+        align-items: center;
+        /* Centrar verticalmente */
+    }
+
+    .boton {
+        text-align: center;
+        /* Centrar horizontalmente */
+        line-height: 40px;
+        /* Ajusta la altura de línea según sea necesario */
+    }
+
+    .h5,
+    h5 {
+        text-align: center;
+        font-size: 0.70rem;
+        display: flex;
+        justify-content: center;
+        /* Centrar horizontalmente */
+        align-items: center;
+        /* Centrar verticalmente */
+    }
+
+    .row-cols-4>* {
+        width: 100%;
+    }
+
+    .col-3 {
+        width: 90%;
+    }
+
+    .justify-content-center {
+        padding-top: .20rem !important
+    }
+
+    .fondo-img {
+        height: 75vh;
+    }
+    #concejos.col-6 {
+        width: 90%
+    }
+
+   
+}
