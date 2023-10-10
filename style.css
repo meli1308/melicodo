@@ -40,7 +40,7 @@ body {
     letter-spacing: 2px;
     text-decoration: none;
 }
-h1
+
 
 .footer-fondo {
     background-color:rgb(6, 59, 59);
@@ -71,7 +71,9 @@ h1
     }
 
     .justify-content-center {
-        padding-top: .25rem !important
+        padding-top: .25rem !important;
+        justify-content: center!important;
+
     }
 
     .fondo-img {
@@ -83,7 +85,7 @@ h1
     }
     #concejos.img{
         align-content: center;
-        align-items: center;
+       
     }
 
 }
@@ -93,10 +95,12 @@ h1
     .h1,
     h1 {
         text-align: center;
+        padding: 50px; ;
         display: flex;
         justify-content: center;
         /* Centrar horizontalmente */
         align-items: center;
+        align-items: flex-end!important;
         /* Centrar verticalmente */
     }
 
@@ -138,4 +142,4 @@ h1
     }
 
    
-}
+};
