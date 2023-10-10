@@ -24,6 +24,7 @@ body {
 
 #text-d1d {
     background-position: right;
+    box-sizing: border-box;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -35,7 +36,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 85vh;
+    height: 75vh;
     padding: 90px;
     letter-spacing: 2px;
     text-decoration: none;
@@ -47,6 +48,8 @@ body {
 }
 #confbsas .d-flex.justify-content-end button {
     margin-right: 10px;
+    display: flex!important;
+    
 
 }
 .copyright{
@@ -71,8 +74,8 @@ body {
     }
 
     .justify-content-center {
-        padding-top: .25rem !important;
         justify-content: center!important;
+        padding-top: 0.2rem !important;
 
     }
 
@@ -99,7 +102,6 @@ body {
         display: flex;
         justify-content: center;
         /* Centrar horizontalmente */
-        align-items: center;
         align-items: flex-end!important;
         /* Centrar verticalmente */
     }
@@ -118,7 +120,7 @@ body {
         display: flex;
         justify-content: center;
         /* Centrar horizontalmente */
-        align-items: center;
+        align-items: flex-end!important;
         /* Centrar verticalmente */
     }
 
@@ -131,7 +133,8 @@ body {
     }
 
     .justify-content-center {
-        padding-top: .20rem !important
+        padding-top: .20rem !important;
+        justify-content: center!important;
     }
 
     .fondo-img {
@@ -139,6 +142,9 @@ body {
     }
     #concejos.col-6 {
         width: 90%
+    }
+    .div {
+        display: block;
     }
 
    
