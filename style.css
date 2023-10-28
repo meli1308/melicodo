@@ -29,6 +29,13 @@ body {
     background-repeat: no-repeat;
 }
 
+*, ::after, ::before {
+     box-sizing: border-box; 
+}
+
+.d-flex {
+    display: flex!important;
+}
 .fondo-img {
     background-image: url(img/ba1.jpg);
     background-color: rgba(0, 0, 0, 0.7);/*esto es para el fondo negro*/
@@ -40,6 +47,9 @@ body {
     padding: 90px;
     letter-spacing: 2px;
     text-decoration: none;
+   
+    padding-bottom: 600px; 
+    border-bottom-width: 400px;
 }
 
 
